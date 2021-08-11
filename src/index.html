@@ -7,7 +7,6 @@
     <meta name="robots" content="all">
     <meta property="og:title" content="Сайт созданный по курсу Андрея Браун и не только">
     
-    <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="css/style.css">
     <title>Андрей Браун веб - разработчик</title>
 </head>
@@ -17,50 +16,53 @@
        <header class="header">
            <div class="container">
               <div class="header__inner">
-                   <div class="header__logo">Андрей Браун</div>
-                   <nav class="header__nav">
-                       <a href="#">ОБО МНЕ</a>
-                       <a href="#">УСЛУГИ</a>
-                       <a href="#">КЕЙСЫ</a>
-                       <a href="#">ПРАЙС</a>
-                       <a href="#">ОТЗЫВЫ</a>
-                       <a href="#">КОНТАКТЫ</a>
+                  <div class="header__logo">
+                  <a class="logo__link" href="#">Андрей Браун</a>
+                  </div>
+                   <nav class="nav">
+                       <a class="nav__link" href="#">ОБО МНЕ</a>
+                       <a class="nav__link" href="#">УСЛУГИ</a>
+                       <a class="nav__link" href="#">КЕЙСЫ</a>
+                       <a class="nav__link" href="#">ПРАЙС</a>
+                       <a class="nav__link" href="#">ОТЗЫВЫ</a>
+                       <a class="nav__link" href="#">КОНТАКТЫ</a>
                    </nav>
                 </div>
            </div>
        </header>
        
-       <div class="container">
-           <div class="content">
-               <h1 class="title">Привет Я Андрей Браун</h1>
-               <p class="subtitle">Фулл стек веб - разработчик и Android - разработчик</p>
+       <!-- intro -->
+       <div class="intro">
+           <div class="container">
+               <div class="intro__inner">
+                   <h1 class="intro__title">Привет <br> Я Андрей Браун</h1>
+                   <p class="intro__subtitle">Фулл стек веб - разработчик и Android - разработчик</p>
+                       <a class="btn" href="#">Обо мне</a>
+                       <a class="btn" href="#">Мои работы</a>      
+                   </div>
+               </div>
            </div>
-           <div class="btn">
-               <a class="btn" href="#">Обо мне</a>
-               <a class="btn" href="#">Мои работы</a>      
-           </div>
-       </div>
 
    
     <!-- about me -->
-    <div class="container">
-        <div class="about__me">
-           <h2 class="title__inner">ОБО МНЕ</h2>
-            <div class="about__logo">
-                <img src="" alt="">
-            </div>
+    <div class="about__me">
+        <div class="container">
+          <div class="about__inner">
+              <h2 class="title">ОБО МНЕ</h2>
+                <img class="about__logo" src="img/About_me_photo.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
 facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
     facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
         </div>
-        <a class="btn" href="#">Скачать резюме</a>
+        <a class="about__btn" href="#">Скачать резюме</a>
+    </div>
     </div>
     
     
     <!-- features -->
     <div class="container">
-      <h2 class="title__inner">ЧТО Я УМЕЮ</h2>
+      <h2 class="title">ЧТО Я УМЕЮ</h2>
        <table class="features__table">
            <tr>
                <th><img src="" alt=""></th>
@@ -89,12 +91,13 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
     
     <!-- cases -->
     <div class="container">
-        <h2 class="title__inner">КЕЙСЫ</h2>
+        <h2 class="title">КЕЙСЫ</h2>
         <p class="cases__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornar diamcoccodo nibh ante facilisis.</p>
         <img src="" alt="">
         
         <!-- calculation -->
         <div class="calculation">
+           <h2 class="title">РАСЧЕТ СТОИМОСТИ</h2>
             <form action="#">
                <h3>ТИП САЙТА</h3>
                <select name="type__site" id="=1">
@@ -136,7 +139,7 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
 
     <!-- statistics -->
     <div class="container">
-        <h2 class="title__inner">НЕМНОГО СТАТИСТИКИ</h2>
+        <h2 class="title">НЕМНОГО СТАТИСТИКИ</h2>
         <table class="statistics__table">
             <tr>
                 <th><img src="" alt=""></th>
@@ -164,7 +167,7 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
     
     <!-- reviews -->
     <div class="container">
-      <h2 class="title__inner">ОТЗЫВЫ</h2>
+      <h2 class="title">ОТЗЫВЫ</h2>
        <form action="#">
             <img src="" alt="">
             <p style="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
